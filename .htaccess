@@ -1,0 +1,33 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^playing$ /index.php?do=playing [L]
+RewriteRule ^toprated$ /index.php?do=toprated [L]
+RewriteRule ^upcoming$ /index.php?do=upcoming [L]
+RewriteRule ^movie/(.*)/(.*)(\/|.html)$ /index.php?do=watch&id=$1&title=$2 [L]
+RewriteRule ^tv/(.*)/(.*)(\/|.html)$ /index.php?do=play&id=$1&title=$2 [L]
+
+RewriteRule ^airing$ /index.php?do=airing [L]
+RewriteRule ^ontheair$ /index.php?do=ontheair [L]
+RewriteRule ^popular$ /index.php?do=popular [L]
+
+RewriteRule ^desc/tv$ desc/tv.php [L]
+
+RewriteRule ^desc/playing$ desc/playing.php [L]
+RewriteRule ^desc/toprated$ desc/toprated.php [L]
+RewriteRule ^desc/upcoming$ desc/upcoming.php [L]
+
+RewriteRule ^desc/airing$ desc/airing.php [L]
+RewriteRule ^desc/ontheair$ desc/ontheair.php [L]
+RewriteRule ^desc/popular$ desc/popular.php [L]
+
+RewriteRule sitemap.xml$ sitemap.php [L]
+ErrorDocument 404 /404.php
+</IfModule>
+
+## STOP REFERRER SPAM
+RewriteCond %{HTTP_REFERER} success\-seo\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} semalt\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} best\-seo\-solution\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} best\-seo\-offer\.com [NC]
+RewriteRule .* - [F]

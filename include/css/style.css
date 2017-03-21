@@ -1,0 +1,103 @@
+body{
+        background: #272626;
+        font-family: 'Asap', sans-serif;
+        color: #252527;
+}
+a {
+        color: #ffa400;
+        text-decoration: none;
+}
+a:hover, 
+a:focus {
+        color: #efac38;
+        text-decoration: underline;
+}
+ol, ul {
+    	padding-left: 20px;
+}
+.h1, h1 {
+        font-size: 26px;
+}
+.navbar-custom {
+        background-color: #222;
+        border-color: #080808;
+        color: #fff;
+}
+.navbar-toggle {
+        color: #428BCA;    
+}
+.navbar-custom a{
+        color: #fff;
+}
+.navbar-custom a:hover{
+        color: wheat;
+}
+.navbar-custom .nav>li>a:hover,
+.navbar-custom .nav>li>a:focus,.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+        background-color: #337ab7;
+}
+.box-container {
+	background-color: #101010;
+	border: 1px solid #444343;
+	color: #fff;
+	margin-bottom: 25px;
+	padding: 15px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.21);
+}
+table {
+        background-color: #181818;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+        background-color: #181818;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        border-top: 1px solid #282828;
+}
+.nowrap {
+        display: block;    
+        white-space: nowrap;    
+        text-overflow: ellipsis;    
+        overflow: hidden;
+}
+.page-header {
+        margin: 0  0 20px;
+        border-bottom: 1px solid #444343;
+}
+.movie-list {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+}
+.movie-list .thumbnail {
+        margin-bottom: 3px;
+}
+.movie-list-title {
+        font-size: 13px;    
+        padding: 2px 0px;
+        font-weight: 700;
+}
+.media-left a.playicon {
+        width: 128px;
+        height: 128px;
+        display: block;
+        margin-top: -64px;
+        margin-left: -130px;
+        left: 65%;
+        top: 60%;
+        position: absolute;
+}
+.media-left a.playicon i {
+        color: #fff;
+        font-size: 50px;
+        margin-top: 28px;
+        opacity: .5;
+}
+@media (min-width: 1200px){
+        .container {
+                width: 970px;
+        }
+}
+@media (max-width: 767px){
+        .dropdown-menu>li>a {
+                color: #fff;
+        }
+}

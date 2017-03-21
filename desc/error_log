@@ -1,0 +1,16 @@
+[16-Mar-2017 02:00:55 America/Chicago] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[16-Mar-2017 02:00:55 America/Chicago] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[16-Mar-2017 02:46:38 America/Chicago] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[16-Mar-2017 02:46:38 America/Chicago] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[16-Mar-2017 04:23:41 America/Chicago] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[16-Mar-2017 04:23:41 America/Chicago] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[16-Mar-2017 09:13:23 America/Chicago] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[16-Mar-2017 09:13:23 America/Chicago] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[19-Mar-2017 23:31:54 America/Chicago] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[19-Mar-2017 23:31:54 America/Chicago] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[19-Mar-2017 23:32:11 America/Chicago] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[19-Mar-2017 23:32:11 America/Chicago] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[20-Mar-2017 00:25:40 America/Chicago] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[20-Mar-2017 00:25:40 America/Chicago] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[20-Mar-2017 00:28:26 America/Chicago] PHP Warning:  include(../footer.php): failed to open stream: No such file or directory in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
+[20-Mar-2017 00:28:26 America/Chicago] PHP Warning:  include(): Failed opening '../footer.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fweoqeze/fullmoviedb.ga/desc/upcoming.php on line 56
